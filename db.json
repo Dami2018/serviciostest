@@ -1,0 +1,15 @@
+{
+"users":[
+  { "id": 1, "name": "Damian Arias", "username": "Dami", "email": "damian2018.arias", "image": "https://arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/IM23GJ5OING7DDWY4L7XPDJWI4.jpg" },
+  { "id": 2, "name": "Diego Arias", "username": "Tutu", "email": "diego1990.arias", "image": "https://asturscore.com/wp-content/uploads/2010/09/Avatar.jpg" },
+],
+  "posts": [
+    { "id": 1, "title": "Post 1", "body":"Contenido 1", "userId":1 },
+    { "id": 2, "title": "Post 2", "body":"Contenido 2", "userId":2 },
+    { "id": 3, "title": "Post 3" , "body":"Contenido 3", "userId":2}
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ]
+}
